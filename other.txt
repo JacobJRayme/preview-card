@@ -1,14 +1,12 @@
-//Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-  <footer>
-    <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">Jacob Jayme</a>.
-      </div>
-    </footer>
+<table>
+  <tr>
+    <th class="stat-header">10k+</th>
+    <th class="stat-header">314</th>
+    <th class="stat-header">12M+</th>
+  </tr>
+  <tr>
+    <td class="stat-content">COMPANIES</td>
+    <td class="stat-content">TEMPLATES</td>
+    <td class="stat-content">QUERIES</td>
+  </tr>
+</table>

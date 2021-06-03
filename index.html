@@ -1,45 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Stats preview card component</title>
 
   <link rel="stylesheet" type="text/css" href="css/styles.css" />
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
 </head>
+
 <body>
   <div class="main center">
-    <div class="text">
-        <div class="content">
-            <h1>Get <span>insights</span> that help your business grow.</h1>
-            <p class="info">Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-             experience, and overall efficiency.</p>
-             <div class="stats">
-              <table>
-                <tr>
-                    <th class="stat-header">10k+</th>
-                    <th class="stat-header">314</th>
-                    <th class="stat-header">12M+</th>
-                </tr>
-                <tr>
-                    <td class="stat-content">COMPANIES</td>
-                    <td class="stat-content">TEMPLATES</td>
-                    <td class="stat-content">QUERIES</td>
-                </tr>
-              </table>
-             </div>
-        </div>
+
+    <div class="col2 picture">
+      <img src="images/image-header-desktop.jpg">
     </div>
-    <div class="picture">
-        <img src="images/image-header-desktop.jpg">
+    <div class="col1">
+      <div class="content">
+        <h1>Get <span>insights</span> that help your business grow.</h1>
+        <p class="info">Discover the benefits of data analytics and make better decisions regarding revenue, customer
+          experience, and overall efficiency.</p>
+
+        <div class="stats">
+          <div class="statcol">
+            <div class=" stat-header">
+              <h2>10k+</h2>
+            </div>
+            <div class=" stat-content">
+              <h4>COMPANIES</h4>
+            </div>
+          </div>
+          <div class="statcol">
+            <div class=" stat-header">
+              <h2>314</h2>
+            </div>
+            <div class=" stat-content">
+              <h4>TEMPLATES</h4>
+            </div>
+          </div>
+          <div class="statcol">
+            <div class=" stat-header">
+              <h2>2M+</h2>
+            </div>
+            <div class=" stat-content">
+              <h4>QUERIES</h4>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
   </div>
 </body>
 
 </html>
-
